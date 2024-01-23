@@ -39,34 +39,36 @@
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    <div tabindex="0" role="button" class=" btn btn-ghost lg:hidden">
+                      <i class="fa-solid fa-bars-staggered -ml-[25px]"></i>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box lg:w-52">
                         <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
+                          <li class="text-btc"><a>Home</a></li>
+                          <li><a>About</a></li>
+                          <li><a>Pages</a></li>
+                          <li><a>Blog</a></li>
+                          <li><a>Contact</a></li>
                         </ul>
                       </li>
-                      <li><a>Item 3</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-xl">Hockey’s</a>
+                  <a class="-ml-1 lg:text-2xl font-extrabold">Hockey<span class="text-btc">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 3</a></li>
-                    <li><a>Item 3</a></li>
-                    <li><a>Item 3</a></li>
+                    <li class="text-btc"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn text-white bg-[#FF4240]">Button</a>
+                  <button><i class="fa-solid fa-magnifying-glass lg:visible lg:mr-5"></i></button>
+                  <button class="btn btn-sm lg:visible  text-white bg-[#FF4240] -mr-2">Get Ticket</button>
+
+                  <!-- <button class="lg:hidden btn btn-sm text-white bg-[#FF4240] ">Get Ticket </button> -->
                 </div>
               </div>
         </nav>
@@ -80,12 +82,12 @@
                     <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
                     <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
 
-                    <!-- <div class="lg:absolute w-[450px] -bottom-40 right-6 ">
+                    <div class="absolute w-full z-10 lg:w-[450px] top-20 lg:-bottom-40 right-1 lg:right-6 ">
                         <div class="bg-black text-white py-2 px-2 rounded-lg">
                             <h3 class="text-2xl font-medium ">Meet all the heroes from the field</h3>
-                            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                            <p>Explore our platform to meet inspiring heroes from various fields, each with unique stories and accomplishments. </p>
                           </div>
-                    </div> -->
+                    </div>
                    
                   </div>
                 </div> 
@@ -94,6 +96,12 @@
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
                     <a href="#slide3" class="btn btn-circle">❯</a>
+                    <div class="absolute w-full z-10 lg:w-[450px] top-20 lg:-bottom-40 right-1 lg:right-6 ">
+                      <div class="bg-black text-white py-2 px-2 rounded-lg">
+                          <h3 class="text-2xl font-medium ">Meet all the heroes from the field</h3>
+                          <p>Explore our platform to meet inspiring heroes from various fields, each with unique stories and accomplishments. </p>
+                        </div>
+                  </div>
                   </div>
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
@@ -101,6 +109,12 @@
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide4" class="btn btn-circle">❯</a>
+                    <div class="absolute w-full z-10 lg:w-[450px] top-20 lg:-bottom-40 right-1 lg:right-6 ">
+                      <div class="bg-black text-white py-2 px-2 rounded-lg">
+                          <h3 class="text-2xl font-medium ">Meet all the heroes from the field</h3>
+                          <p>Explore our platform to meet inspiring heroes from various fields, each with unique stories and accomplishments. </p>
+                        </div>
+                  </div>
                   </div>
                 </div> 
                 <div id="slide4" class="carousel-item relative w-full">
@@ -108,15 +122,20 @@
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
+                    <div class="absolute w-full z-10 lg:w-[450px] top-20 lg:-bottom-40 right-1 lg:right-6 ">
+                      <div class="bg-black text-white py-2 px-2 rounded-lg">
+                          <h3 class="text-2xl font-medium ">Meet all the heroes from the field</h3>
+                          <p>Explore our platform to meet inspiring heroes from various fields, each with unique stories and accomplishments. </p>
+                        </div>
+                  </div>
                   </div>
                 </div>
               </div>
         </section>
     </header>
-    
-    <!-- main section -->
-    <!-- professional hocky club section -->
+   
   <main>
+           <!-- professional hocky club section -->
         <section>
             <div class="flex flex-col lg:pt-16 pt-5 px-5 lg:px-40">
                 <div class="divider"></div>
@@ -129,65 +148,71 @@
     
             <div class="p-10 px-12 lg:mx-32">
                 <div class="container lg:flex justify-center items-center gap-7">
-                    <div class="">
-                        <div class="radial-progress mt-5 ml-16 text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                    <div class="text-center mt-5">
+                        <div class="radial-progress rotate-180 text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-black rotate-180">87%</span>
+                        </div>
     
-                        <div class="px-3 text-center">
+                         <div class="px-3 text-center">
                             <h3 class="text1xl py-2 font-semibold">Prayer Facility</h3>
                             <p>Sacred space unites, fostering team spirit and inner strength.</p>
-                        </div>
+                         </div>
                     </div>
-                   <div class="">
-                        <div class="radial-progress mt-5 ml-16 text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                    <div class="text-center mt-5">
+                        <div class="radial-progress rotate-180 text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-black rotate-180">95%</span>
+                        </div>
     
                         <div class="px-3 text-center">
                             <h3 class="text1xl py-2 font-semibold">Experienced Coach</h3>
                             <p>Guiding with expertise, the coach refines skills and strategies.</p>
                         </div>
-                   </div>
-                   <div class="">
-                        <div class="radial-progress mt-5 ml-16 text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                    </div>
+
+                    <div class="text-center mt-5">
+                       <div class="radial-progress rotate-180 text-[#FFB546]" style="--value:90;" role="progressbar"><span class="text-black rotate-180">90%</span>
+                        </div>
     
                         <div class="px-3 text-center">
                             <h3 class="text1xl py-2 font-semibold">Senior Player</h3>
                             <p>Leading with experience, the senior player showcases skills.</p>
                         </div>
-                   </div>
-                   <div class="">
-                        <div class="radial-progress mt-5 ml-16 text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <div class="radial-progress rotate-180 text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-black rotate-180">80%</span>
+                        </div>
     
                         <div class="px-3 text-center">
                             <h3 class="text1xl py-2 font-semibold">Training Ground</h3>
                             <p>Ground for excellence, where skills evolve and victories materialize.</p>
                         </div>
-                   </div>
+                    </div>
                 </div>
             </div>
         </section>
-       <!-- program section -->
+          <!-- program section //--> 
        <div class="divider lg:pt-16 pt-5 px-5 lg:px-32"></div>
-       <section>
+    <section>
         <div class="p-10 px-12 lg:mx-32 text-center">
             <h2 class="text-4xl font-extrabold">Program Sections</h2>
             <p class="pt-3 p-1 font-normal lg:px-32">In Program Sections, diverse initiatives foster skill development, fitness, camaraderie, and strategic excellence among players.</p>
         </div>
         <div class="divider pb-10  px-5 lg:px-32"></div>
 
-    <div class="m-5 lg:flex justify-between items-start gap-5 lg:mx-32">
-        <div class="mb-5 lg:mb-0 w-full h-full">
-            <div class="card image-full">
-                <figure><img src="Images/2.png" alt="Shoes" /></figure>
-                  <div class="card-body">
-                    <div class="mt-14">
-                    <h2 class="card-title pb-2 text-3xl text-white">Junior Program!</h2>
-                    <p class="text-white">The Junior Program ignites passion for the sport, nurturing young talents through skill development, teamwork, and a supportive community atmosphere.</p>
+        <div class="m-5 lg:flex justify-between items-start gap-5 lg:mx-32">
+            <div class="mb-5 lg:mb-0 w-full h-full">
+              <div class="card image-full">
+                  <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <div class="mt-14">
+                      <h2 class="card-title pb-2 text-3xl text-white">Junior Program!</h2>
+                      <p class="text-white">The Junior Program ignites passion for the sport, nurturing young talents through skill development, teamwork, and a supportive community atmosphere.</p>
+                      </div>
+                      <div class="card-actions">
+                      <button class="btn text-white border-none bg-btc ">Register Now!</button>
                     </div>
-                    <div class="card-actions">
-                    <button class="btn text-white border-none bg-btc ">Register Now!</button>
                   </div>
                 </div>
-              </div>
-        </div>
+          </div>
         <!-- second card -->
         <div class="w-full h-full">
             <div class="card image-full">
@@ -198,13 +223,13 @@
                     <p class="text-white">The Teenager Program ignites passion for the sport, nurturing young talents through skill development, teamwork, and a supportive community atmosphere.</p>
                     </div>
                     <div class="card-actions">
-                    <button class="btn text-white border-none bg-btc ">Register Now!</button>
+                      <button class="btn text-white border-none bg-btc ">Register Now!</button>
+                    </div>
                   </div>
                 </div>
-              </div>
+          </div>
         </div>
-    </div>
-    <!-- third card -->
+        <!-- third card -->
         <div>
             <div class="card mb-1 px-5 lg:px-32 image-full">
                 <figure><img src="Images/4.png" alt="Shoes" /></figure>
@@ -221,9 +246,9 @@
             </div>
         </div>
         <div class="divider lg:pt-8 pt-5 px-5 lg:px-32"></div>
-       </section>
+   </section> 
 
-       <!-- new products section -->
+          <!-- new products section -->
 
        <section>
             <div class="text-center px-8 lg:mx-32  pt-8">
@@ -359,7 +384,7 @@
             </div>
        </section>
 
-        <!--clients question section  -->
+         <!--clients question section  -->
        <div class="divider pt-5 pb-5 lg:pt-20 px-5 lg:px-32"></div>
 
 
@@ -470,7 +495,7 @@
          
      </section>
         
-      
+    <section>
      <div class="lg:grid grid-cols-2 px-5 lg:px-32">
           <div class="border-2 border-[#1313181A] rounded-lg lg:w-[474px] mb-5 p-5 lg:px-[50px]">
             <!-- 1 -->
@@ -544,11 +569,73 @@
           <button class="bg-btc mt-4 lg:mt-[35px] text-white w-[280px] lg:w-[500px] h-[40px] rounded-lg">Send Message</button>
           <!-- parent end -->
      </div>
+   </section> 
+
   </main>
 
-    <footer>
-      
-    </footer>
+     <!-- upper footer section -->
+  <section>
+     <div class="mx-5 my-5 lg:mx-32 rounded-lg">
+      <footer class="footer footer-center p-10 bg-base-200 h-40 lg:h-48 rounded-lg"> 
+        <h3 class="text-center text-3xl font-extrabold">Social Media</h3>
+          <div class="grid grid-flow-col gap-2 font-extrabold">
+            <i class="fa-brands fa-facebook text-2xl"></i><i class="fa-brands fa-discord text-2xl"></i><i class="fa-brands fa-linkedin text-2xl"></i><i class="fa-brands fa-github text-2xl"></i><i class="fa-brands fa-twitter text-2xl"></i>
+          </div>
+      </footer>
+    </div>
+  </section>
 
+    <!-- main footer -->
+  <section>
+    <div class="bg-black py-5">
+          <div class=" text-white px-5 lg:px-32">
+            <footer class="footer">
+              <form class=" ">
+                <header class="footer-title text-center pl-20 lg:pl-0 lg:text-start">Get In Touch!</header> 
+                <fieldset class="form-control w-70 lg:w-80 text-center lg:text-start">
+                  <div class=" text-center lg:text-left">
+                   <p class="mb-1 ">Contact us for collaboration, inquiries, or any business opportunities. Let's connect!</p>
+                   <p><i class="fa-solid fa-envelope mr-2"></i>raselparvezsanny@gmail.com</p>
+                   <p><i class="fa-solid fa-phone mr-2"></i>019075077**</p>
+                  </div>
+                </fieldset>
+               </form>
+
+                  <div class="pl-[40px] lg:px-0 grid grid-cols-2">
+                    <nav class="">
+                      <header class="footer-title">Company</header>
+                      <a class="link link-hover">News & Article</a>
+                      <br>
+                      <a class="link link-hover">About us</a>
+                      <br>
+                      <a class="link link-hover">Leadership</a>
+                      <br>
+                      <a class="link link-hover">Careers</a>
+                    </nav>
+
+                    <nav class="lg:ml-[76px]">
+                      <header class="footer-title">Support</header> 
+                      <a class="link link-hover">Ticket Support</a>
+                      <br>
+                      <a class="link link-hover">Help Center</a>
+                      <br>
+                      <a class="link link-hover">Contact Us</a>
+                      <br>
+                      <a class="link link-hover">FAQ</a>
+                    </nav>
+                  </div>
+
+                  <nav class="text-center lg:text-right  lg:ml-[100px] ml-[90px]">
+                    <header class="footer-title ">Services</header> 
+                    <a class="link link-hover -mt-2">Hockeys for Adult</a>
+                    <a class="link link-hover -mt-2">Hockeys for kids</a>
+                    <a class="link link-hover -mt-2">Group Lesson</a>
+                    <a class="link link-hover -mt-2">Academy </a>
+                  </nav> 
+          </footer>
+        </div>
+  </section>
+
+                                  <!-- end -->
 </body>
 </html>
